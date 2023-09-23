@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.0/lottie.min.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div id="animation-container">
+    </div>
+    <script>
+        const animation = lottie.loadAnimation({
+          container: document.getElementById('animation-container'),
+          renderer: 'svg',
+          loop: true, // 是否循環播放
+          autoplay: true, // 是否自動播放
+          path: './Aimation.json', 
+        });
+      </script>
+</body>
+</html>
